@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['bus', 'car', 'motorcycle', 'truck']
+
+roboflow:
+  workspace: andre-p3anh
+  project: mean-of-transportation-tgmhy
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/andre-p3anh/mean-of-transportation-tgmhy/dataset/1

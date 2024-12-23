@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['0', 'Truck', 'bike', 'cars']
+
+roboflow:
+  workspace: capstone-ssbpj
+  project: vehicles-1-y6owg
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/capstone-ssbpj/vehicles-1-y6owg/dataset/1
